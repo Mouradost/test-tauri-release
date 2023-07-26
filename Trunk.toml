@@ -1,0 +1,11 @@
+[build]
+target = "./index.html"
+
+[watch]
+ignore = ["./src-tauri"]
+
+[serve]
+# address = "192.168.3.3" # External access need to update tauri.conf.json to use the external address
+address = "127.0.0.1"
+port = 1420
+open = false
