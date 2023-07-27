@@ -42,7 +42,7 @@
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
-        "timestampUrl": ""
+        "timestampUrl": "http://timestamp.sectigo.com"
       }
     },
     "security": {
@@ -56,6 +56,14 @@
         "title": "learn-tauri",
         "width": 800
       }
-    ]
+    ],
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://gist.githubusercontent.com/Mouradost/49ecca131b9288b9de9b9c1f93381aaa/raw/066bb2d07b527ec63161595fcd2d0e1fedf30f64/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IENBRDM0QUFFOTlFRjRGN0YKUldSL1QrK1pya3JUeWh6ZE1HNXJpcnBDalhuVGV3K0RnSklVaDBBK2lCZ3V6U0o4ZU1WSHdsWHQK"
+    }
   }
 }
